@@ -1,0 +1,26 @@
+{
+  "name": "puppeteer-for-beginners",
+  "version": "1.0.0",
+  "description": "Learn how to use Puppeteer.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "rm -rf ./dist && tsc && node ./dist/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cobalt-intelligence/puppeteer-for-beginners.git"
+  },
+  "author": "Jordan Hansen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cobalt-intelligence/puppeteer-for-beginners/issues"
+  },
+  "homepage": "https://github.com/cobalt-intelligence/puppeteer-for-beginners#readme",
+  "dependencies": {
+    "puppeteer": "^13.4.1"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^5.4.5",
+    "typescript": "^4.6.2"
+  }
+}
